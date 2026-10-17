@@ -1,0 +1,12 @@
+# 排除构建上下文中的无关/敏感文件
+.venv
+.git
+__pycache__
+*.pyc
+.pytest_cache
+.env
+.env.example
+tests
+*.md
+Dockerfile
+docker-compose.yml
